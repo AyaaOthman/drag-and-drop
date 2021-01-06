@@ -6,9 +6,8 @@
 body {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #eee;
-  height: 100vh;
-  overflow: none;
 }
 
 .hold {
@@ -19,7 +18,7 @@ body {
   width: 95px;
   height: 95px;
   background-color: #76c2e6;
-  margin: 0rem 1rem;
+  margin: 1rem 1rem;
   border: 1px solid #011f33;
 }
 
@@ -32,3 +31,8 @@ body {
     border: dotted 3px #011f33;
     background-color: #015791;
 }
+@media(max-width: 800px){
+body{
+    display: flex;
+    flex-direction: column;
+}}
