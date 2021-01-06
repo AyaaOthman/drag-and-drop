@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  height: 100vh;
+  overflow: none;
+}
+
+.hold {
+  border: 3px solid #015791;
+}
+
+.empty {
+  width: 95px;
+  height: 95px;
+  background-color: #76c2e6;
+  margin: 0rem 1rem;
+  border: 1px solid #011f33;
+}
+
+.fill {
+  background-image: url("https://source.unsplash.com/random/150x150");
+  width: 100%;
+  height: 100%;
+}
+.current{
+    border: dotted 3px #011f33;
+    background-color: #015791;
+}
